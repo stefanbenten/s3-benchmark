@@ -1,4 +1,4 @@
-#!/bin/sh
-set -eu pipefail
+#!/bin/bash
+set -euo pipefail
 
 exec ./s3-benchmark $@
